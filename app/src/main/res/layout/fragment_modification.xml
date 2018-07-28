@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="16dp"
+    tools:context=".Modification">
+
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Name"
+        android:nextFocusDown="@id/edt_email"
+        android:fontFamily="serif-monospace"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:text="Search"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorGrey"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+   <TextView
+       android:id="@+id/txtcontact"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Email Address"
+       android:fontFamily="serif-monospace"
+       android:textSize="16sp"
+       android:textColor="@color/colorPrimaryDark"
+       android:textStyle="bold"
+       android:layout_below="@+id/edt_name"
+       android:layout_marginTop="40dp"
+       />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtcontact"
+        android:nextFocusDown="@id/edt_conatct"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Detail"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/edt_email"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_conatct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_contact"
+        android:layout_marginTop="8dp"
+        android:nextFocusDown="@id/edt_skill"
+        android:inputType="phone"
+        android:fontFamily="serif-monospace" />
+
+    <TextView
+        android:id="@+id/txt_skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skill Set"
+        android:fontFamily="serif-monospace"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/edt_conatct"
+        android:layout_marginTop="13dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_skill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@+id/txt_skill"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Update"
+        android:fontFamily="serif-monospace"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/edt_skill"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorGrey"
+
+        />
+
+
+</RelativeLayout>

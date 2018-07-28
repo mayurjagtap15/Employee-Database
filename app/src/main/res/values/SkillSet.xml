@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<resources>
+
+    <skill name="skillJava">Java</skill>
+    <skill name="skillUnix">UNIX/LINUX</skill>
+    <skill name="skillPlSQL">Pl-SQL</skill>
+    <skill name="skillPROD">UNIX-SQL</skill>
+    <skill name="skillandriod">Andriod</skill>
+
+</resources>
+-->
+
+<resources>
+
+    <string name="auto_complete">Input Skill Set</string>
+
+<string-array name="skill_array">
+    <item>Java</item>
+    <item>UNIX</item>
+    <item>PL-SQL</item>
+    <item>UNIX-SQL</item>
+    <item>Andriod</item>
+    <item>Apple-IOs Design</item>
+    <item>Pyhton</item>
+    <item>Automation Testing</item>
+</string-array>
+
+</resources>
